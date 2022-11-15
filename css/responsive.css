@@ -1,5 +1,45 @@
+
+/*!RESPONSIVNESS UNDER 768 PX*/
+
 @media screen and (max-width: 767px) {
  .container{
     width: 100%;
  }
+}
+
+
+
+/*RESPONSIVNESS UNDER 500PX*/
+
+@media screen and (max-width: 478px){
+    .lessons{
+        padding: 25px;
+    }
+    .lessons .col{
+        width: 100%;
+    }
+    .row{
+        display: block;
+    }
+
+    .steps{
+        margin: 0;
+    }
+    .steps .col{
+        width: 100%;
+    }
+
+
+    .why-us{
+        background-color: black;
+        margin-bottom: 0;
+        padding: 20px;
+    }
+    .why-us .col-left{
+        width: 100%;
+    }
+    .why-us .col-right{
+        width: 100%;
+        margin-top: 40px;
+    }
 }
